@@ -28,29 +28,13 @@ import java.util.HashMap;
         Bike bike9 = new Bike("blue");
         Bike bike10= new Bike("blue");
 
-        // adding them to Hash
-        bikes.put(bike1.bikeId, bike1);
-        bikes.put(bike2.bikeId, bike2);
-        bikes.put(bike3.bikeId, bike3);
-        bikes.put(bike4.bikeId, bike4);
-        bikes.put(bike5.bikeId, bike5);
-        bikes.put(bike6.bikeId, bike6);
-        bikes.put(bike7.bikeId, bike7);
-        bikes.put(bike8.bikeId, bike8);
-        bikes.put(bike9.bikeId, bike9);
-        bikes.put(bike10.bikeId, bike10);
 
         //creating stations
         Station station1 = new Station("Westbahnhof");
         Station station2 = new Station("Hauptbahnhof");
         Station station3 = new Station("Erdberg");
 
-        //adding them to hash
-        stations.put(station1.stationID, station1);
-        stations.put(station2.stationID, station2);
-        stations.put(station3.stationID, station3);
-
-        //adding bikes to stations using bike ID-s
+       //adding bikes to stations using bike ID-s
         System.out.println("Adding bikes to the stations: ");
         station1.addBike(1);
         station1.addBike(2);
@@ -72,19 +56,22 @@ import java.util.HashMap;
         //renting bikes using bike ID-s
         //user Smith rents bike Nr. 2 from station Nr. 1
         user1.rentBike(1);
-
+        user1.rentBike(4);
         //waiting so the tracking makes sense
-        System.out.print("Waiting for the user to return the bike");
-        for (int i = 0; i < 5; i++) {
-            System.out.print(".");
-            Thread.sleep(1000);
-        }
-        System.out.println();
+        waitForRent(5000);
 
 
         //returning bike by user Smith
         user1.returnBike(1, 2);
+
     }
 
-
+    public static void waitForRent(int milliseconds) throws InterruptedException {
+        System.out.print("Waiting for the user to return the bike");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(".");
+            Thread.sleep(milliseconds/5);
+        }
+        System.out.println();
+    }
 }

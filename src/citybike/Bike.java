@@ -10,6 +10,8 @@ public class Bike {
     public Bike(String color) {
         this.bikeId = bikeCount;
         bikeCount++;
+        //Add object to hash map on creation
+        Main.bikes.put(this.bikeId, this);
     }
 
 

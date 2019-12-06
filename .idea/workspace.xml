@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2a30fa7a-14c3-4caa-86e2-7c83ff5a389a" name="Default Changelist" comment="" />
+    <list default="true" id="2a30fa7a-14c3-4caa-86e2-7c83ff5a389a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citybike/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/citybike/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citybike/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/citybike/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citybike/Station.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/citybike/Station.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/citybike/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/citybike/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +21,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UZDXCzeSSt0AL3abLrWp5QyEcE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -74,22 +87,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="47" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1575624808803" />
-    <state width="1323" height="272" key="GridCell.Tab.0.bottom" timestamp="1575628948249">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom" timestamp="1575632926072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575628948249" />
-    <state width="1323" height="272" key="GridCell.Tab.0.center" timestamp="1575628948249">
+    <state width="1323" height="272" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575632926072" />
+    <state width="1323" height="272" key="GridCell.Tab.0.center" timestamp="1575632926057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="272" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575628948249" />
-    <state width="1323" height="272" key="GridCell.Tab.0.left" timestamp="1575628948249">
+    <state width="1323" height="272" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575632926057" />
+    <state width="1323" height="272" key="GridCell.Tab.0.left" timestamp="1575632926057">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="272" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575628948249" />
-    <state width="1323" height="272" key="GridCell.Tab.0.right" timestamp="1575628948249">
+    <state width="1323" height="272" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575632926057" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right" timestamp="1575632926072">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="272" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575628948249" />
+    <state width="1323" height="272" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575632926072" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1575627732498">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

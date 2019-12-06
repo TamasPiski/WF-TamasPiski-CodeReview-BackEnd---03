@@ -13,11 +13,14 @@ public class Station {
         this.location = location;
         this.stationID = stationCount;
         stationCount++;
+
+        //Add object to hash map on creation
+        Main.stations.put(this.stationID, this);
     }
 
     public boolean addBike(int bikeId) {
-        if (bikesOnStation.size() == 5) {
-            System.out.println("Maximum bikes at station, cannot add more");
+        if (bikesOnStation.size() > 5) {
+            System.out.println("Maximum bikes at station, bike nr." + bikeId + " cannot be returned here.");
             return false;
         }else {
             bikesOnStation.add(bikeId);

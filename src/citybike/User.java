@@ -36,7 +36,7 @@ public class User {
                 }
             }
             if (currentlyRentedBike == 0)
-                System.out.println("Something went wrong, bike is not rented");
+                System.out.println("Something went wrong, bike nr." + bikeId + " is not rented");
         } else
             System.out.println("Already rented a bike, cannot have two bikes at once");
         System.out.println("Renting process is finished.");
