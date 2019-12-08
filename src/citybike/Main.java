@@ -13,7 +13,6 @@ import java.util.HashMap;
         }};
 
 
-
     public static void main(String[] args) throws InterruptedException {
 
         // creating bikes
@@ -57,13 +56,12 @@ import java.util.HashMap;
         //user Smith rents bike Nr. 2 from station Nr. 1
         user1.rentBike(1);
         user1.rentBike(4);
+
         //waiting so the tracking makes sense
         waitForRent(5000);
 
-
         //returning bike by user Smith
         user1.returnBike(1, 2);
-
     }
 
     public static void waitForRent(int milliseconds) throws InterruptedException {

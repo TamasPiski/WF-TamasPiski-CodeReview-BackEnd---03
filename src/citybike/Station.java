@@ -19,7 +19,7 @@ public class Station {
     }
 
     public boolean addBike(int bikeId) {
-        if (bikesOnStation.size() > 5) {
+        if (bikesOnStation.size() == 5) {
             System.out.println("Maximum bikes at station, bike nr." + bikeId + " cannot be returned here.");
             return false;
         }else {
